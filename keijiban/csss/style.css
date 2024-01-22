@@ -1,0 +1,107 @@
+body{
+  background-color: #5ef359;
+}
+
+.main{
+    text-align: center;
+    font-family: "ＭＳ Ｐゴシック";
+}
+.kanri{
+  text-align: right;
+}
+.text{
+    vertical-align: top;
+    margin-right: 5px;
+}
+.toukou{
+    border-top: 1px solid;
+    margin: 40px auto;
+    max-width: 975px;
+}
+#loading {
+    transition: all 1s;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    display: grid;
+    place-items: center;
+  }
+  .spinner{
+    width: 200px;
+    height: 200px;
+  }
+  
+  /*ローディング完了したらローディング画像を隠す*/
+  .loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+.title{
+  left:39%;
+  width: 300px;
+  height: 120px;
+  position: relative;
+}
+.title img{
+  text-align: center;
+  width:100%;
+}
+.title h1{
+  position: absolute;
+  top:30%;
+  left:35%;
+  font-size:30px;
+  color: rgb(4, 51, 2);
+  padding:0;
+  margin:0;
+}
+.form{
+  left:35%;
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+.form img{
+  text-align: center;
+  width:100%;
+}
+.Form{
+  position: absolute;
+  top:5%;
+  left:12%;
+  color: rgb(34, 97, 32);
+  padding:0;
+  margin:0;
+}
+
+.mypage{
+  position: absolute;
+  width: 274px;
+  bottom:95%;
+  left:60%;
+}
+.top{
+  position: absolute;
+  width: 274px;
+  bottom:95%;
+  left:35%;
+}
+.hyou{
+  position: absolute;
+  width: 274px;
+  bottom:95%;
+  left:47%;
+}
+.heder{
+  font-size:120%;
+}
+
+#page-top{
+  position: relative;
+  text-align: center;
+  font-size:120%;
+  top:90%;
+  height: 30px;
+  background-color: #40bd3c;
+}
